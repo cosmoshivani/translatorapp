@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from openaix import getLanguageTranslation
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = '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'
+app.config['SECRET_KEY'] = 'sk-pneXYherrT5X7fEDFXYoT3Bl'secret key'
 
 
 @app.route('/', methods=['GET'])
